@@ -43,6 +43,17 @@ lerna-debug.log*
 .env.local
 .env.test
 
+# Secrets and keys
+*.pem
+*.key
+*.pub
+*.crt
+*.cer
+*.p12
+*.pfx
+private_key*
+public_key*
+
 # temp directory
 .temp
 .tmp
